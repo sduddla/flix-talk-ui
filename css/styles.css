@@ -12,6 +12,7 @@
 @import 'components/badge.css';
 @import 'components/alt-screen-header.css';
 @import 'components/no-mobile.css';
+@import 'components/splash-screen.css';
 
 body {
   background-color: var(--black);
