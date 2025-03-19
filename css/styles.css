@@ -1,21 +1,22 @@
 @import 'variables.css';
 @import 'reset.css';
 
-@import 'login.css';
-@import 'splash-screen.css';
-@import 'programs.css';
-@import 'find.css';
+@import 'screens/login.css';
+@import 'screens/programs.css';
+@import 'screens/find.css';
+@import 'screens/chat12.css';
 
-@import 'screen-header.css';
-@import 'user-component.css';
-@import 'nav-bar.css';
-@import 'badge.css';
+@import 'components/screen-header.css';
+@import 'components/user-component.css';
+@import 'components/nav-bar.css';
+@import 'components/badge.css';
+@import 'components/alt-screen-header.css';
+@import 'components/no-mobile.css';
 
 body {
   background-color: var(--black);
   color: white;
   overflow-y: scroll;
-  height: 130vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
