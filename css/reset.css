@@ -100,9 +100,17 @@ nav,
 section {
   display: block;
 }
+
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
