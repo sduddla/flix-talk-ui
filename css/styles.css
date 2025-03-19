@@ -17,8 +17,10 @@
 body {
   background-color: var(--black);
   color: white;
-  overflow-y: scroll;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: calc(100vh - 57px);
+  max-height: 100%; /*화면을 줄이면 자동으로 조정*/
+  overflow-y: auto;
 }
 
 .main-screen {

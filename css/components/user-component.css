@@ -29,7 +29,7 @@
 .user-component_photo {
   width: 60px;
   height: 60px;
-  border-radius: 30px;
+  border-radius: 20px;
   margin-right: 20px;
 }
 
@@ -69,7 +69,7 @@
 .user-component_column_more img {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  border-radius: 20%;
   margin-bottom: 20px;
 }
 
@@ -77,7 +77,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-top: 20px;
 }
 
@@ -123,7 +123,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
   padding-right: 70px;
   padding-left: 70px;
   padding-top: 10px;
@@ -153,6 +152,20 @@
   font-size: 12px;
 }
 
+.user-component-more_save {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.user-component_save {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
 .user-component_blue_dot {
   background-color: var(--lavender);
   border-radius: 50%;
@@ -164,54 +177,32 @@
   align-items: center;
 }
 
-.user-component-more_save {
+.user-component-more_popular {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
-.user-component_save {
+.user-component_popular {
   position: relative;
   display: flex;
   align-items: center;
   margin-top: 25px;
 }
 
-.user-component-save_column {
+.user-component_orange_dot {
+  background-color: var(--orange);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.user-component-save_img {
-  width: 100px;
-  height: 140px;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-.joker:hover {
-  animation: Save 1s linear forwards;
-}
-
-.lalaland:hover {
-  animation: Save 1s linear forwards;
-}
-
-.sunshine:hover {
-  animation: Save 1s linear forwards;
-}
-
-@keyframes Save {
-  0% {
-    transform: none;
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: none;
-  }
+.user-component_right {
+  margin-bottom: -20px;
 }
