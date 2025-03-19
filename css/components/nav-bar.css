@@ -1,7 +1,6 @@
 .nav {
   padding: 20px 50px;
   box-sizing: border-box;
-  background-color: var(--black);
   border-top: 0.2px solid var(--red);
   position: fixed;
   bottom: 0;
