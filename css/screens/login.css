@@ -12,24 +12,24 @@
 }
 
 .welcome-header_title_flix {
-  font-size: 60px;
+  font-size: 40px;
   margin-right: 5px;
   color: var(--red);
 }
 
 .welcome-header_title_talk {
-  font-size: 60px;
+  font-size: 40px;
   color: var(--orange);
 }
 
 .welcome-header_title_text {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .welcome-header_title_text2 {
   display: block;
   padding-top: 10px;
-  font-size: 35px;
+  font-size: 25px;
   letter-spacing: 2px;
 }
 
