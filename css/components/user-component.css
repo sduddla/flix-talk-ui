@@ -123,14 +123,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 70px;
-  padding-left: 70px;
+  padding-right: 50px;
+  padding-left: 50px;
   padding-top: 10px;
 }
 
 .user-component-notification_img {
-  width: 122px;
-  height: 145px;
+  width: 145px;
+  height: 100px;
   border-radius: 10px;
   margin-right: 40px;
 }
